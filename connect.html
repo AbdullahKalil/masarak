@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تواصل معنا</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- FontAwesome للأيقونات -->
+    <style>
+      
+    </style>
+</head>
+<body>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">مسارك </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="main.html">الرئيسية</a></li>
+                    <li class="nav-item"><a class="nav-link" href="abut.html">عن المنصة</a></li>
+                    <li class="nav-item"><a class="nav-link" href="serveses.html">الخدمات</a></li>
+                    <li class="nav-item"><a class="nav-link" href="connect.html">تواصل معنا</a></li>
+                </ul>
+                <a href="login.html" class="btn btn-primary ms-3">تسجيل الدخول</a>
+                <a href="register.html" class="btn btn-outline-light ms-2">إنشاء حساب</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- قسم التواصل معنا -->
+    <section class="contact-section">
+        <div class="container">
+            <h2>تواصل معنا</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">الاسم الكامل</label>
+                            <input type="text" class="form-control" id="name" placeholder="أدخل اسمك" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">البريد الإلكتروني</label>
+                            <input type="email" class="form-control" id="email" placeholder="أدخل بريدك الإلكتروني" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">الموضوع</label>
+                            <input type="text" class="form-control" id="subject" placeholder="أدخل موضوع الرسالة"required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">الرسالة</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="أدخل رسالتك" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">إرسال</button>
+                    </form>
+                </div>
+            </div>
+            <!-- معلومات التواصل الإضافية -->
+            <div class="contact-info">
+                <p>رقم الهاتف: 775113262</p>
+                <p>البريد الإلكتروني: info@yourwebsite.com</p>
+                <p>تابعنا على وسائل التواصل الاجتماعي:</p>
+                <div class="social-links">
+                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+   <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+        <p>&copy; 2024 منصة التوجيه المهني. جميع الحقوق محفوظة.</p>
+        <p>صمم بواسطة فريق تطوير المنصة</p>
+    </div>
+</footer>
+
+    <!-- Script Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
